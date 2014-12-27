@@ -1,8 +1,16 @@
 #!/usr/bin/env python
+#
+# Reports min/max size of a set of photos
+#  i.e. used to identify placeholder images
 
 import sys
 import os
 from PIL import Image
+
+__author__ = "B. Henne"
+__contact__ = "henne@dcsec.uni-hannover.de"
+__copyright__ = "(c) 2012, B. Henne"
+__license__ = "GPLv3"
 
 small = 100
 

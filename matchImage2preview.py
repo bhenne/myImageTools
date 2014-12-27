@@ -3,6 +3,7 @@
 # match image width/height ratio against those of its integrated previews
 # try to find image with more (not cut) content in preview
 # these could maybe show explicit/private content
+# -- not 100% perfectly done, to be improved --
 
 from PIL import Image
 import pyexiv2
